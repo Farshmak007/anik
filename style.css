@@ -1,0 +1,170 @@
+* {
+    margin: 0 auto;
+}
+
+.contact-form {
+    background-color: rgb(33, 104, 197);
+    height: 200vh;
+    padding-top: 50px;
+}
+
+.form {
+    width: 70%;
+
+    display: flex;
+    margin: 0 auto;
+ 
+    box-shadow:-3px 0px 20px 16px #23232340;
+    border-radius: 10px;
+}
+
+.form-img{
+    width: 50%;
+    background-image: url(img/citi.jpg);
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.form-img h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+
+.form-img p {
+    color: rgba(255, 255, 255, 0.931);
+    text-align: center;
+    font-size: 23px;
+    margin-top: 145px;
+    margin-bottom: 85px;
+}
+
+
+.learn {
+    width: 108px;
+    font-size: 23px;
+    color: #fff;
+    background-color: rgb(3, 53, 219);
+    padding: 10px 70px;
+    text-decoration: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.form-text {
+    width: 50%;
+}
+
+.regesration {
+    padding: 70px 50px;
+}
+
+fieldset
+{
+    border: none;
+    padding: 0
+}
+
+
+form {
+    width: 50%;
+    margin-top: 50px;
+}
+
+[placeholder="Username"] {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: #fff; 
+
+}
+
+[placeholder="Password"]{
+    margin-bottom: 5px;
+padding-left: 10px;   
+color: #fff; 
+}
+
+[placeholder="Username"],[placeholder="Password"] {
+    border:2px solid #fff;
+    background-color: transparent;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+[placeholder="Username"]:focus,[placeholder="Password"]:focus {
+    color: #fff;
+    outline: none;
+    padding-left: 5px;
+}
+
+[placeholder="Username"]::after {
+    display: block;
+    color: #fff;
+    content: "";
+}
+
+
+[placeholder="Username"]::placeholder,[placeholder="Password"]::placeholder {
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 17px;
+}
+
+.password {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+
+
+
+form h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 30px;
+    padding-left: 13px;
+}
+
+.btn {
+    display: block;
+    width: 287px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: rgb(33, 104, 197);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-bottom: 7px;
+
+}
+
+
+.account {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color:rgb(33, 104, 197);
+}
